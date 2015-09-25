@@ -12,7 +12,7 @@
     display: flex;
 }
 .cell {
-    flex: 1;
+    flex: 0;
     position: relative;
 }
 .cell-1 {
