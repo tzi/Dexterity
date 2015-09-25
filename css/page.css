@@ -1,0 +1,53 @@
+
+/* RESET */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-bottom: 3em;
+    background: white linear-gradient(to bottom, #E8EFFF, white 150px) repeat-x;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* GITHUB RIBBON */
+.gh-ribbon {
+    background-color: #ff6347;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+
+    /* top right corner */
+    position: absolute;
+    right: -50px;
+    top: 40px;
+
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px #888;
+}
+.gh-ribbon > span {
+    border: 1px solid #faa;
+    color: #fff;
+    display: block;
+    font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 1px 0;
+    padding: 10px 50px;
+    text-align: center;
+    /* shadow */
+    text-shadow: 0 0 5px #444;
+}
+
+.gh-star {
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+    border: 0;
+    overflow: hidden;
+    vertical-align: -0.05em;
+}
