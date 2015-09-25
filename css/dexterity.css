@@ -72,20 +72,41 @@
 
 
 /* PATH */
-.path-w {
-    left: 10px;
+.path-n {
+    top: 10px;
+}
+.path-e {
+    right: 10px;
 }
 .path-s {
     bottom: 10px;
 }
-.corner-sw:before {
+.path-w {
+    left: 10px;
+}
+.corner-ne:before,
+.corner-se:before,
+.corner-sw:before,
+.corner-nw:before {
     content: '';
     position: absolute;
     width: 10px; height: 10px;
-    left: 0; bottom: 0;
     z-index: 1;
     background: white;
 }
+.corner-ne:before {
+    top: 0; right: 0;
+}
+.corner-se:before {
+    bottom: 0; right: 0;
+}
+.corner-sw:before {
+    bottom: 0; left: 0;
+}
+.corner-nw:before {
+    top: 0; left: 0;
+}
+
 
 
 
